@@ -1,0 +1,1 @@
+awk '/[A-Z] +[0-9]* + [0-9]* *$/ {print "Not all scores are available for", %1;}'
